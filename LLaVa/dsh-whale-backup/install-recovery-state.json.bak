@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "transactionId": "fe2786d9-5e30-402b-a60a-730fead90adb",
+  "profileName": "web",
+  "profileIdentity": "cc9617a6d33c651587a59960a6d49f311724d5cee1c9b28262fecbc876df444f",
+  "packageName": "manual-plugin-install",
+  "packageVersion": "unresolved",
+  "receiptId": "manual:5116dd96-ab91-4680-b868-ceb4af1d7d19",
+  "createdByGeneration": "terminal:9eaad142-a823-4450-9db0-c6fff7b223ed",
+  "createdAt": "2026-08-24T01:53:03.220Z",
+  "phase": "awaiting-restart",
+  "files": [
+    {
+      "name": "package.json",
+      "before": {
+        "present": true,
+        "sha256": "210068ddb9ebc4cdf395ebb53020be6ccaaedb917e74dae16296d62394626398",
+        "size": 207,
+        "mode": 438,
+        "backupFile": "package.json.before"
+      },
+      "after": {
+        "present": true,
+        "sha256": "d2a8f83479adc50c792bbfe6f4e87ee4da085635b8d265ec5660b4e217b89981",
+        "size": 301,
+        "mode": 438
+      }
+    },
+    {
+      "name": "pnpm-lock.yaml",
+      "before": {
+        "present": false
+      },
+      "after": {
+        "present": true,
+        "sha256": "eb19aea1c76d0c06b74cd674127384630295f11bca9528fcd0ee2d45d0808ba9",
+        "size": 264,
+        "mode": 438
+      }
+    },
+    {
+      "name": "pnpm-workspace.yaml",
+      "before": {
+        "present": true,
+        "sha256": "ae7c5b68e2f157528e62885804e69e88583897b775e03c86fcbe52feaf498aba",
+        "size": 61,
+        "mode": 438,
+        "backupFile": "pnpm-workspace.yaml.before"
+      },
+      "after": {
+        "present": true,
+        "sha256": "ae7c5b68e2f157528e62885804e69e88583897b775e03c86fcbe52feaf498aba",
+        "size": 61,
+        "mode": 438
+      }
+    }
+  ],
+  "sealedAt": "2026-08-24T01:53:06.873Z"
+}
